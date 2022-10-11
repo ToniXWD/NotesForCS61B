@@ -1,8 +1,8 @@
 package week3;
 
-public class SpeedTest {
+public class SpeedTestAList {
     public static void main(String[] args) {
-        AList L = new AList();
+        AList<Integer> L = new AList<>();
         int i = 0;
         while(i<100000){
             L.addLast(i);

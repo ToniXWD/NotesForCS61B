@@ -94,7 +94,7 @@ public class SLList<LochNess> implements List61B<LochNess> {
 
 //    print() in List61B is inefficient, overwrite it
     public void print(){
-        System.out.println("Overwrite");
+//        System.out.println("Overwrite");
         StuffNode p = sentinel;
         while(p.next != null){
             p = p.next;
